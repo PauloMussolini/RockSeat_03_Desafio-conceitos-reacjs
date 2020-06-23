@@ -25,7 +25,7 @@ export default function Repositories(){
   }
 
     return (
-        <>
+        <div>
             <ul data-testid="repository-list">
                 { repositories.map( 
                     repo => 
@@ -39,6 +39,6 @@ export default function Repositories(){
                 }        
             </ul>
             <button onClick={handleAddRepository}>Adicionar</button>
-        </>
+        </div>
     )
 }
